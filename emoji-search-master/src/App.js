@@ -19,6 +19,8 @@ export default class App extends PureComponent {
   };
 
   render() {
+    console.log('test');
+    if(true) console.log('true');
     return (
       <div>
         <Header />
